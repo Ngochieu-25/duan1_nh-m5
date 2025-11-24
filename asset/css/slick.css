@@ -1,0 +1,55 @@
+.my-slickSilder .slick-next {
+  font-size: 3.6rem;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: 2%;
+  transform: translateY(-50%);
+  padding: 6px 8px;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.my-slickSilder .slick-prev {
+  font-size: 3.6rem;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  z-index: 1;
+  transform: translateY(-50%);
+  padding: 6px 8px;
+  opacity: 0.7;
+}
+.my-slickSilder .slick-next:hover {
+  opacity: 0.5;
+}
+.my-slickSilder .slick-prev:hover {
+  opacity: 0.5;
+}
+.slick-next-list{
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  font-size: 2.8rem;
+  cursor: pointer;
+  z-index: 2;
+  padding: 6px 12px;
+  background: rgba(0,0,0,0.1);
+}
+.slick-prev-list{
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  font-size: 2.8rem;
+  z-index: 2;
+  cursor: pointer;
+  padding: 6px 12px;
+  background: rgba(0,0,0,0.1);
+}
+.slick-next-list:hover {
+  opacity: 0.5;
+}
+.slick-prev-list:hover {
+  opacity: 0.5;
+}

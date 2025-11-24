@@ -1,0 +1,17 @@
+.noti-success{
+    background-color: #DBEEDD;
+    border-color: #badbcc;
+    min-height: 40px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    display: block;
+    line-height: 40px;
+    padding-left: 6px;
+}
+.new-color{
+    
+    display: inline-block;
+}
+.new-color + .new-color{
+    margin-right: 12px;
+}
