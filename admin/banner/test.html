@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="file" id="file" />
+    <button onclick="showFileSize()">show file size</button>
+  </body>
+  <script>
+    function showFileSize() {
+      let file = document.getElementById("file").files[0];
+      if (file) {
+        alert(file.size + " in bytes");
+      } else {
+        alert("select a file... duh");
+      }
+    }
+  </script>
+</html>
