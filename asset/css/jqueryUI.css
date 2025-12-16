@@ -1,0 +1,33 @@
+#multi-range-slider {
+    width: 94%;
+    background-color: #d9d9d9;
+    height: 3px;
+    margin-left: 8px;
+    margin-right: 8px;
+    top: 12px;
+  }
+  .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+    background: #000;
+  }
+  .ui-slider-horizontal .ui-slider-handle {
+    top: -0.6rem;
+    margin-left: -0.6rem;
+  }
+  .ui-slider {
+    background-color: #000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .ui-state-default, .ui-widget-content .ui-state-default {
+    background: #000;
+  }
+  .ui-slider .ui-slider-handle {
+    background-color: #000;
+    border: 1px solid #000;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
